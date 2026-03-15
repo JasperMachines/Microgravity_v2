@@ -1,0 +1,435 @@
+adb cmd
+
+icrosoft Windows [Versión 10.0.16299.15]
+(c) 2017 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\iop>cd C:\Users\iop\Downloads\platform-tools-latest-windows
+
+C:\Users\iop\Downloads\platform-tools-latest-windows>adb versio n
+"adb" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\iop\Downloads\platform-tools-latest-windows>adb version
+"adb" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\iop\Downloads\platform-tools-latest-windows>adb.exe
+"adb.exe" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\iop\Downloads\platform-tools-latest-windows>cd C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>ab version
+"ab" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb version
+Android Debug Bridge version 1.0.41
+Version 36.0.2-14143358
+Installed as C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools\adb.exe
+Running on Windows 10.0.16299
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb devices
+List of devices attached
+
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb devices
+List of devices attached
+R9YTA0WZADV     unauthorized
+
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb shell pm list packages
+adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb shell pm list packages
+adb.exe: no devices/emulators found
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb devices
+List of devices attached
+
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb devices
+List of devices attached
+R9YTA0WZADV     device
+
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb shell pm list packages
+package:com.sec.android.RilServiceModeApp
+package:com.dywx.larkplayer
+package:com.samsung.android.wifi.resources
+package:com.google.android.providers.media.module
+package:com.sec.android.gallery3d
+package:com.sec.android.provider.emergencymode
+package:com.samsung.android.widget.pictureframe
+package:com.google.android.overlay.modules.permissioncontroller.forframework
+package:com.sec.imslogger
+package:com.sec.automation
+package:com.sec.android.app.servicemodeapp
+package:com.sec.android.iaft
+package:com.samsung.android.calendar
+package:com.wssyncmldm
+package:com.sec.enterprise.mdm.services.simpin
+package:com.evozi.injector
+package:com.android.calllogbackup
+package:com.google.android.overlay.modules.cellbroadcastreceiver
+package:com.sec.android.app.samsungapps
+package:com.linkedin.android
+package:com.android.dreams.phototable
+package:com.samsung.android.app.appsedge
+package:com.mycompany.gyro2
+package:com.sec.android.diagmonagent
+package:com.samsung.internal.systemui.navbar.sec_gestural_no_hint
+package:com.android.dreams.basic
+package:com.android.companiondevicemanager
+package:com.android.cts.priv.ctsshim
+package:com.samsung.android.app.spage
+package:com.samsung.android.lool
+package:com.samsung.android.app.settings.bixby
+package:com.android.mms.service
+package:com.google.android.cellbroadcastreceiver
+package:com.android.providers.downloads
+package:ringtone.maker.mp3.cutter.audio
+package:com.sec.android.app.parser
+package:com.android.bluetoothmidiservice
+package:com.facebook.appmanager
+package:com.google.android.photopicker
+package:com.google.android.printservice.recommendation
+package:com.stritt.poffline
+package:com.samsung.android.app.galaxyfinder
+package:com.google.android.captiveportallogin
+package:com.gmobiler.diatonicbuttonaccordion
+package:com.google.android.networkstack
+package:com.android.keychain
+package:com.sec.android.app.DataCreate
+package:com.microsoft.office.outlook
+package:com.sec.android.app.fm
+package:android.auto_generated_rro_vendor__
+package:com.sec.imsservice
+package:com.samsung.android.app.sharelive
+package:org.torproject.torbrowser
+package:com.samsung.android.localeoverlaymanager
+package:com.android.shell
+package:com.google.android.adservices.api
+package:com.samsung.android.accessibility.talkback
+package:com.samsung.android.themestore
+package:com.val.hardware
+package:com.android.inputdevices
+package:com.sec.android.app.popupcalculator
+package:com.google.android.appsearch.apk
+package:com.google.android.ondevicepersonalization.services
+package:com.samsung.android.incallui
+package:com.android.bookmarkprovider
+package:com.samsung.android.wifi.softapwpathree.resources
+package:com.sec.sve
+package:com.google.android.onetimeinitializer
+package:com.samsung.android.app.contacts
+package:com.google.android.permissioncontroller
+package:com.osp.app.signin
+package:com.android.sharedstoragebackup
+package:com.samsung.android.sdk.handwriting
+package:com.android.providers.media
+package:com.sec.android.sdhms
+package:com.android.providers.calendar
+package:com.android.providers.blockednumber
+package:com.google.android.documentsui
+package:com.samsung.android.smartcallprovider
+package:com.sec.bcservice
+package:com.google.android.overlay.modules.documentsui
+package:com.samsung.android.networkdiagnostic
+package:com.google.android.safetycore
+package:com.android.proxyhandler
+package:com.samsung.app.newtrim
+package:com.google.android.overlay.modules.permissioncontroller
+package:com.android.managedprovisioning
+package:com.google.android.gms.location.history
+package:com.chess
+package:com.sec.android.app.launcher
+package:com.samsung.advp.imssettings
+package:com.samsung.android.biometrics.app.setting
+package:com.samsung.crane
+package:com.sec.android.app.setupwizardlegalprovider
+package:com.google.android.gm
+package:com.android.carrierdefaultapp
+package:org.intoorbit.spectrum
+package:com.android.backupconfirm
+package:com.samsung.android.mdm
+package:com.samsung.android.ConnectivityUxOverlay
+package:com.google.android.apps.tachyon
+package:com.hiya.star
+package:com.android.mtp
+package:com.google.android.gsf
+package:com.sec.android.app.personalization
+package:com.android.internal.display.cutout.emulation.double
+package:com.android.theme.font.notoserifsource
+package:com.sec.epdgtestapp
+package:pl.netigen.guitarstuner
+package:com.samsung.android.providers.contacts
+package:com.aide.ui
+package:com.google.android.syncadapters.calendar
+package:com.samsung.android.cidmanager
+package:com.google.android.overlay.modules.cellbroadcastservice
+package:com.wondershare.filmorago
+package:com.android.stk2
+package:com.iqoption
+package:com.utorrent.client
+package:com.samsung.android.shortcutbackupservice
+package:com.microsoft.office.officehubrow
+package:com.samsung.android.scloud
+package:com.android.systemui
+package:com.android.wallpapercropper
+package:com.samsung.accessibility
+package:com.king.candycrushsaga
+package:com.microsoft.skydrive
+package:com.sprd.wifi.resources.overlay
+package:com.soundcorset.client.android
+package:com.vitastudio.mahjong
+package:com.google.android.overlay.gmsconfig.geotz
+package:com.src.android.app.camera.sticker
+package:com.android.internal.systemui.navbar.gestural
+package:com.samsung.android.mtp
+package:com.samsung.android.beaconmanager
+package:com.google.android.apps.translate
+package:com.google.mainline.adservices
+package:com.samsung.android.app.cocktailbarservice
+package:com.android.settings.intelligence
+package:com.monotype.android.font.samsungone
+package:com.samsung.android.video
+package:com.samsung.android.audiomirroring
+package:com.sec.android.app.factorykeystring
+package:com.wsomacp
+package:com.samsung.internal.systemui.navbar.sec_gestural
+package:com.camerasideas.instashot
+package:com.sec.android.app.bluetoothagent
+package:com.samsung.android.app.watchmanagerstub
+package:eu.flightapps.airtraffic
+package:com.google.android.federatedcompute
+package:com.google.android.webview
+package:com.google.android.sdksandbox
+package:com.android.wallpaperbackup
+package:com.samsung.android.brightnessbackupservice
+package:com.google.android.cellbroadcastservice
+package:com.samsung.android.app.soundpicker
+package:com.samsung.clipboardsaveservice
+package:com.samsung.android.app.omcagent
+package:com.android.internal.systemui.navbar.threebutton
+package:com.android.egg
+package:com.samsung.android.wifi.softap.resources
+package:com.android.localtransport
+package:com.samsung.SMT
+package:android
+package:com.samsung.cmh
+package:com.samsung.android.networkstack
+package:com.dwsh.super16
+package:com.samsung.sree
+package:com.google.android.overlay.modules.modulemetadata.forframework
+package:com.samsung.android.app.clipboardedge
+package:com.samsung.android.callbgprovider
+package:com.samsung.android.aware.service
+package:com.sec.android.easyMover.Agent
+package:com.filemanager.fileexplorer.junkcleaner
+package:com.samsung.android.container
+package:com.mycompany.myapp2
+package:com.sec.epdg
+package:com.samsung.android.bluelightfilter
+package:com.nequi.MobileApp
+package:com.block.juggle
+package:com.samsung.android.wcmurlsnetworkstack
+package:com.google.android.packageinstaller
+package:com.android.se
+package:com.android.pacprocessor
+package:com.samsung.android.app.clockpack
+package:voicerecorder.audiorecorder.voice
+package:com.snaptube.premium
+package:com.sec.location.nfwlocationprivacy
+package:com.google.android.safetycenter.resources
+package:com.samsung.android.app.reminder
+package:com.google.android.apps.youtube.music
+package:ai.perplexity.app.android
+package:com.android.stk
+package:net.peakgames.toonblast
+package:com.samsung.android.mdx.quickboard
+package:com.bork.dsp.datuna
+package:com.sec.enterprise.knox.cloudmdm.smdms
+package:com.sec.android.usermanual
+package:com.android.internal.display.cutout.emulation.hole
+package:com.android.settings
+package:com.android.bips
+package:com.google.android.partnersetup
+package:com.android.internal.systemui.navbar.gestural_narrow_back
+package:com.android.internal.display.cutout.emulation.tall
+package:com.google.android.networkstack.tethering
+package:android.autoinstalls.config.samsung
+package:com.google.android.projection.gearhead
+package:com.android.cameraextensions
+package:com.sec.android.app.SecSetupWizard
+package:com.sec.location.nsflp2
+package:com.samsung.android.app.telephonyui
+package:com.android.carrierconfig
+package:com.samsung.android.keycustomizationinfobackupservice
+package:com.android.internal.systemui.navbar.gestural_wide_back
+package:com.android.internal.systemui.onehanded.gestural
+package:com.sec.android.emergencylauncher
+package:com.samsung.android.scs
+package:com.openai.chatgpt
+package:com.google.android.apps.carrier.carrierwifi
+package:com.google.android.videos
+package:com.sec.android.app.voicenote
+package:com.google.android.ext.shared
+package:com.sec.android.easyonehand
+package:com.samsung.android.setting.multisound
+package:com.samsung.android.networkstack.tethering.overlay
+package:com.google.android.feedback
+package:com.samsung.android.sm.devicesecurity
+package:com.android.chrome
+package:com.sec.unifiedwfc
+package:com.samsung.android.app.taskedge
+package:com.facebook.services
+package:com.google.android.apps.maps
+package:com.sec.android.app.myfiles
+package:com.samsung.android.dck.timesync
+package:com.sec.android.app.ve.vebgm
+package:com.sec.android.provider.badge
+package:com.samsung.android.app.dressroom
+package:android.auto_generated_rro_product__
+package:com.arumcomm.cropimage
+package:com.sec.android.app.camera
+package:com.dti.samsung
+package:com.samsung.android.honeyboard
+package:com.samsung.safetyinformation
+package:com.samsung.android.emergency
+package:com.whatsapp
+package:com.samsung.android.smartswitchassistant
+package:com.android.providers.downloads.ui
+package:com.android.ons
+package:com.google.android.networkstack.tethering.overlay
+package:com.samsung.android.wallpaper.res
+package:com.google.android.apps.docs
+package:com.samsung.android.dqagent
+package:com.google.android.contactkeys
+package:com.samsung.android.fmm
+package:com.samsung.android.allshare.service.fileshare
+package:com.android.certinstaller
+package:com.samsung.sec.android.application.csc
+package:com.samsung.aasaservice
+package:com.google.android.setupwizard
+package:com.samsung.android.secsoundpicker
+package:com.android.wifi.resources
+package:com.android.wifi.dialog
+package:com.sec.android.app.safetyassurance
+package:com.google.android.apps.restore
+package:com.sec.android.app.chromecustomizations
+package:com.mycompany.myapp
+package:com.android.simappdialog
+package:com.android.providers.telephony
+package:com.android.wallpaper.livepicker
+package:com.samsung.android.easysetup
+package:com.samsung.android.dynamiclock
+package:com.samsung.android.stickercenter
+package:com.sec.spp.push
+package:com.android.internal.display.cutout.emulation.waterfall
+package:com.sec.app.RilErrorNotifier
+package:com.mycompany.Microgravity
+package:com.samsung.android.privacydashboard
+package:com.android.providers.settings
+package:com.android.phone
+package:com.google.android.overlay.modules.ext.services
+package:com.android.internal.systemui.navbar.gestural_extra_wide_back
+package:com.sec.android.app.quicktool
+package:com.sec.phone
+package:com.samsung.android.location
+package:com.android.traceur
+package:com.samsung.android.app.routines
+package:com.samsung.android.dialer
+package:com.google.android.apps.messaging
+package:tv.twitch.android.app
+package:com.samsung.rcs
+package:com.monotype.android.font.foundation
+package:com.samsung.ims.smk
+package:com.android.location.fused
+package:com.android.vpndialogs
+package:com.android.uwb.resources
+package:com.google.android.overlay.gmsconfig.photos
+package:com.eco.cropvideo
+package:com.google.android.tts
+package:com.google.android.googlequicksearchbox
+package:com.google.android.modulemetadata
+package:com.samsung.android.voc
+package:com.sec.android.app.clockpackage
+package:com.android.htmlviewer
+package:com.samsung.android.app.updatecenter
+package:com.android.vending
+package:com.samsung.android.app.notes
+package:com.samsung.android.sdm.config
+package:com.google.android.ext.services
+package:com.sec.android.daemonapp
+package:com.samsung.android.themecenter
+package:com.google.android.configupdater
+package:com.google.android.overlay.modules.captiveportallogin.forframework
+package:com.google.android.apps.playconsole
+package:com.samsung.android.forest
+package:com.google.android.apps.turbo
+package:com.samsung.android.messaging
+package:com.samsung.android.mapsagent
+package:com.samsung.android.mobileservice
+package:com.samsung.android.wifi.p2paware.resources
+package:com.sec.usbsettings
+package:com.google.android.gms.supervision
+package:com.google.android.overlay.gmsconfig.gsa
+package:com.sec.vsim.ericssonnsds.webapp
+package:com.android.providers.userdictionary
+package:com.google.android.overlay.gmsconfig.common
+package:com.android.cts.ctsshim
+package:com.android.bluetooth
+package:com.samsung.storyservice
+package:com.sec.android.widgetapp.webmanual
+package:com.android.internal.display.cutout.emulation.corner
+package:com.google.android.gms
+package:com.mecatronium.mezquite
+package:com.android.storagemanager
+package:com.sec.android.app.soundalive
+package:com.samsung.internal.systemui.navbar.gestural_no_hint
+package:com.samsung.android.game.gos
+package:com.android.printspooler
+package:com.boedec.hoel.frequencygenerator
+package:com.samsung.android.app.smartcapture
+package:com.skms.android.agent
+package:com.samsung.android.ConnectivityOverlay
+package:com.samsung.android.service.peoplestripe
+package:com.samsung.klmsagent
+package:com.sec.android.easyMover
+package:com.sec.android.soagent
+package:com.facebook.system
+package:com.android.providers.partnerbookmarks
+package:com.samsung.android.kidsinstaller
+package:com.google.mainline.telemetry
+package:com.larkvideo.player
+package:com.facebook.katana
+package:com.android.dynsystem
+package:com.samsung.android.providers.media
+package:com.samsung.android.mdx.kit
+package:com.samsung.android.da.daagent
+package:com.samsung.android.rubin.app
+package:com.android.hotspot2.osulogin
+package:com.samsung.android.kgclient
+package:com.google.android.connectivity.resources
+package:com.sec.android.mimage.photoretouching
+package:com.google.android.youtube
+package:com.android.externalstorage
+package:com.samsung.android.gru
+package:com.samsung.android.scpm
+package:com.android.server.telecom
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb shell pm list packages | grep mycompany
+"grep" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb shell pm path com.mycompany.Microgravity
+package:/data/app/~~tbvgtCM3sUK_UAWYN1uYHQ==/com.mycompany.Microgravity-7_f-hBYAwnei2CvSHh377A==/base.apk
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>adb pull /data/app/~~tbvgtCM3sUK_UAWYN1uYHQ==/com.mycompany.Microgravity-7_f-hBYAwnei2CvSHh377A==/base.apk
+/data/app/~~tbvgtCM3sUK_UAWYN1uYHQ==/com.mycompany.Microgr...1 file pulled, 0 skipped. 0.0 MB/s (58653 bytes in 1.503s)
+
+C:\Users\iop\Downloads\platform-tools-latest-windows\platform-tools>
